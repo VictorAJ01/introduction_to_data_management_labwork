@@ -1,7 +1,7 @@
 import sqlite3
 
 def normalized_hr_db():
-    conn = sqlite3.connect('miva_hr_training.db')
+    conn = sqlite3.connect('miva_database_management.db')
     cursor = conn.cursor()
     
     # Create final 5NF tables
